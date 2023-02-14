@@ -1,0 +1,193 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style-type: none;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    background-color: #93c9ffaf;
+}
+.container{
+    width: 50%;
+    height: 100vh;
+    background-color: white;
+    margin: 0 auto;
+    color: #4a92db;
+}
+.hero{
+    padding: 0 5% ;
+    text-align: center;
+}
+.title{
+    text-align: center;
+    padding: 5%;
+    font-size: 250%;
+}
+input{
+    padding: 1% 2%;
+    font-size: 18px;
+    border-radius: 25px;
+}
+.btn{
+    margin-top: 5%;
+    background-color: #4a92db;
+    border: 1px solid;
+    padding: 10px 38px;
+    color: white;
+}
+.btn:hover{
+    color: #4a92db;
+    background-color: white;
+    border: 1px solid;
+}
+#bmiSolutions{
+    padding-top: 9%;
+    text-align: center;
+    font-size: 150%;
+}
+.decoration-side{
+    display: flex;
+    position: relative;
+}
+.left-side{
+    flex-basis: 50%;
+}
+.right-side{
+    position: absolute;
+    flex-basis: 50%;
+    /* width: 50%; */
+    right: 0;
+    width: 15%;
+    
+}
+.decoration-side .left-side .left-decoretion1{
+    border: 0px solid #93c9ffaf;
+    background-color: #93c9ffaf;
+    border-radius: 0 25px 0 0;
+    margin-bottom: 20px;
+    width: 25%;
+    height: 35px;
+}
+.decoration-side .left-side .left-decoretion2{
+    border: 0px solid #93c9ffaf;
+    width: 25%;
+    height: 35px;
+    background-color: #93c9ffaf;
+    margin-bottom: 20px;
+    border-radius: 0 0 25px 0;
+}
+.decoration-side .left-side .left-decoretion3{
+    border: 0px solid #93c9ffaf;
+    width: 25%;
+    height: 35px;
+    background-color: #93c9ffaf;
+    margin-bottom: 20px;
+    border-radius: 0 25px 0 0;
+}
+.decoration-side .left-side .left-decoretion4{
+    border: 0px solid #93c9ffaf;
+    width: 25%;
+    height: 35px;
+    background-color: #93c9ffaf;
+    margin-bottom: 20px;
+    border-radius: 0 0 25px 0;
+}
+.decoration-side .left-side .left-decoretion5{
+    border: 0px solid #93c9ffaf;
+    width: 25%;
+    height: 35px;
+    background-color: #93c9ffaf;
+    border-radius: 0 25px 0 0;
+}
+
+.decoration-side .right-side .right-decoretion1{
+    border: 0px solid #93c9ffaf;
+    width: 100%;
+    height: 35px;
+    background-color: #93c9ffaf;
+    border-radius: 25px 0 0 0;
+    margin-bottom: 20px;
+}
+.decoration-side .right-side .right-decoretion2{
+    border: 0px solid #93c9ffaf;
+    width: 100%;
+    height: 35px;
+    background-color: #93c9ffaf;
+    margin-bottom: 20px;
+    border-radius: 0 0 0 25px;
+}
+.decoration-side .right-side .right-decoretion3{
+    border: 0px solid #93c9ffaf;
+    width: 100%;
+    height: 35px;
+    background-color: #93c9ffaf;
+    margin-bottom: 20px;
+    border-radius: 25px 0 0 0;
+}
+.decoration-side .right-side .right-decoretion4{
+    border: 0px solid #93c9ffaf;
+    width: 100%;
+    height: 35px;
+    background-color: #93c9ffaf;
+    margin-bottom: 20px;
+    border-radius: 0 0 0 25px;
+}
+.decoration-side .right-side .right-decoretion5{
+    border: 0px solid #93c9ffaf;
+    width: 100%;
+    height: 35px;
+    background-color: #93c9ffaf;
+    border-radius: 25px 0 0 0;
+}
+@media screen and (min-width: 900px) {
+    body{
+        background-color: gray;
+    }
+    .container{
+        color: gray;
+        text-align: center;
+    }
+    .btn{
+        background-color: gray;
+    }
+    .btn:hover{
+        color: gray;
+        border: 1px solid;
+    }
+    .decoration-side .left-side .left-decoretion1{
+        background-color: gray;
+    }
+    .decoration-side .left-side .left-decoretion2{
+        background-color: gray;
+    }
+    .decoration-side .left-side .left-decoretion3{
+        background-color: gray;
+    }
+    .decoration-side .left-side .left-decoretion4{
+        background-color: gray;
+    }
+    .decoration-side .left-side .left-decoretion5{
+        background-color: gray;
+    }
+    .decoration-side .right-side .right-decoretion1{
+        background-color: gray;
+    }
+    .decoration-side .right-side .right-decoretion2{
+        background-color: gray;
+    }
+    .decoration-side .right-side .right-decoretion3{
+        background-color: gray;
+    }
+    .decoration-side .right-side .right-decoretion4{
+        background-color: gray;
+    }
+    .decoration-side .right-side .right-decoretion5{
+        background-color: gray;
+    }
+}
